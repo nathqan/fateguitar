@@ -3,12 +3,16 @@ const mongoose = require('mongoose');
 const Form = require("./models/Form");
 const bodyParser = require('body-parser');
 const path = require('path');
+const dotenv = require("dotenv");
+dotenv.config();
+const MONGO_CNSTRING = process.env.DATABASE_URL;
+
 
 const app = express();
 
 app.use(express.static(__dirname + '/src/public'));
 app.use(bodyParser.urlencoded({extended: true}))
-mongoose.connect('mongodb://127.0.0.1/')
+mongoose.connect(MONGO_CNSTRING)
 
 
 app.post('/contato', async (req, res) => {
@@ -57,3 +61,4 @@ app.get('/', (req, res) => {
 })
 
 app.listen(5500)
+
