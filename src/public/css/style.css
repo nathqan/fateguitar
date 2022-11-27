@@ -1,0 +1,41 @@
+@import "./global/global.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
+
+/* Home */
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+
+/* guitarras */
+@import "./guitarras/guitarras-lista.css";
+@import "./guitarras/guitarras.css";
+
+/* guitarra */
+@import "./guitarra/guitarra.css";
+@import "./guitarra/seguro.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
+
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+/* Contato */
+@import "./orcamento/orcamento.css";
+@import "./contato/sobre.css";
+@import "./contato/formulario.css";
+
+/* Termos */
+@import "./termos/termos.css";

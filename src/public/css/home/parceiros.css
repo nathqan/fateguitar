@@ -1,0 +1,17 @@
+.parceiros {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.parceiros video {
+  margin-left: 400px;
+}
+
+@media (max-width: 800px) {
+  .parceiros video {
+    margin-left: 20px;
+
+    width: 450px;
+    height: 450px;
+  }
+}
