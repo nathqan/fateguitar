@@ -30,7 +30,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1366px) {
   .introducao-bg {
     background: var(--cor-11);
     padding-top: 40px;
