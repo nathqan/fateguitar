@@ -6,6 +6,7 @@ const path = require('path');
 const dotenv = require("dotenv");
 dotenv.config();
 const MONGO_CNSTRING = process.env.DATABASE_URL;
+const PORT = process.env.PORT;
 
 
 const app = express();
@@ -60,5 +61,5 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname+"/src/index.html"))
 })
 
-app.listen(5500)
+app.listen(PORT)
 
